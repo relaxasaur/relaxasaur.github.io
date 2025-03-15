@@ -25,7 +25,22 @@ h5 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.egg {
+#egg {
     transform: translateY(25vh);
     scale: 2.5;
+}
+
+#pressable {
+    width:76vw;
+    height: 50vh;
+    background-image: url('egg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(1, 1, 1, 0);
+    border: none;
+    margin-top: 25%;
+}
+
+#pressable:active {
+    scale: 1.05;
 }

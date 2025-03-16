@@ -18,6 +18,11 @@ h5 {
   font-size: 30px;
 }
 
+button {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: #0000;
+}
+
 #timer {
   color: navy;
   margin-top: 1rem;
@@ -29,14 +34,30 @@ h5 {
   transform: translateY(25vh)scale3d(2.5, 2.5, 1);
 }
 
+#pick {
+  color: red;
+  opacity: .7;
+  background-image: url("pick.402cbac3.png");
+  background-size: contain;
+  border: 3px solid #fff;
+  border-radius: 15%;
+  width: 100px;
+  height: 100px;
+  margin: 1rem auto;
+  font-size: 32px;
+  font-weight: bold;
+}
+
 #pressable {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: #0000;
   background-color: #01010100;
   background-image: url("egg.a4530b1b.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   border: none;
-  width: 76vw;
-  height: 50vh;
+  width: 80vw;
+  height: 70vh;
   margin-top: 25%;
 }
 

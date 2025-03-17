@@ -1,18 +1,23 @@
 import React from 'preact';
 import { render } from 'preact';
 import { useState } from 'preact/hooks';
-import { signal } from '@preact/signals';
+import cravePoints from './Points';
 
 function Message() {
-    const [cravePoints, setPoints] = useState(0);
-
+    const [points, setPoints] = useState(cravePoints);
     function increment() {
-        setPoints(cravePoints+1)
+        setPoints(points+1);
+    };
+    if (points>=1000) {
+        document.getElementById("pick").style.opacity = 1;
+        document.getElementById("pick").innerHTML = "";
+    
     }
-
+    
     return (
         <div>
-            <h5>{cravePoints} crave points</h5>
+            <button id="pick">1000</button>
+            <h5>{points} crave points</h5>
             <button id="pressable" onClick={increment}></button>
         </div>     
     );

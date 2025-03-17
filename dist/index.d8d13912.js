@@ -606,8 +606,10 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _preact = require("preact");
 var _preactDefault = parcelHelpers.interopDefault(_preact);
+var _points = require("./Points");
+var _pointsDefault = parcelHelpers.interopDefault(_points);
 function Upgrades() {
-    const points = window.points;
+    const points = (0, _pointsDefault.default);
     const pick = document.getElementById("pick");
     if (points >= 1000) pick.style.opacity = 1;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -616,19 +618,19 @@ function Upgrades() {
             children: "1000"
         }, void 0, false, {
             fileName: "Upgrades.js",
-            lineNumber: 14,
+            lineNumber: 15,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "Upgrades.js",
-        lineNumber: 13,
+        lineNumber: 14,
         columnNumber: 9
     }, this);
 }
 const target = document.getElementById('upgrades');
 (0, _preact.render)(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Upgrades, {}, void 0, false, {
     fileName: "Upgrades.js",
-    lineNumber: 20,
+    lineNumber: 21,
     columnNumber: 8
 }, undefined), target);
 
@@ -637,6 +639,6 @@ const target = document.getElementById('upgrades');
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"kxS54","preact":"26zcy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["akMYn","5g9Ie"], "5g9Ie", "parcelRequire94c2")
+},{"react/jsx-dev-runtime":"kxS54","preact":"26zcy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Points":"78ax8"}]},["akMYn","5g9Ie"], "5g9Ie", "parcelRequire94c2")
 
 //# sourceMappingURL=index.d8d13912.js.map

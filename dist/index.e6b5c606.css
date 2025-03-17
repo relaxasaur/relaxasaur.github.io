@@ -21,6 +21,7 @@ h5 {
 button {
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: #0000;
+  touch-action: none;
 }
 
 #timer {
